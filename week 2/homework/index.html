@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>My magic animal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <form>
+        <h1>Опрос</h1>
+        <div><label for="aniname">Кличка питомца</label>
+        <input type="text" id="aniname"></div>
+        <fieldset> 
+         <legend>Владелец</legend>
+         <div> <label for="name"> Имя</label>
+         <input type="text" id="name"></div>
+         <div><label for="tel"> Телефон</label>
+         <input type="tel" id="tel"></div>
+        </fieldset>
+        <div> <label for="breed">Порода</label>
+          <select name="breed" id="breed">
+            <option value="">-Выберите породу-</option>
+            <option value="owl">Сова</option>
+            <option value="dragon">Дракон</option>
+            <option value="phoenix">Феникс</option>
+            <option value="unicorn">Единорог</option>
+            <option value="cat">Кошка</option>
+           </select></div>
+        <div> <p>Каким кормом питается?</p>
+            <input type="checkbox" name="food" id="1" checked />
+            Влажный
+            <input type="checkbox" name="food" id="2"/>
+            Натуральный
+            <input type="checkbox" name="food" id="3"/>
+            Сухой
+        </div>
+        <div> <p>Пол питомца</p>
+        <input type="radio" name="sex" >Мальчик 
+        <input type="radio" name="sex" >Девочка </div>
+        <div> <textarea name="comment" id="comment" cols="40" rows="5" placeholder="Комментарий владельца"></textarea></div>
+        <div> <label for="photo"> Приложите фото питомца</label>
+              <input type="file" id="photo"></div>
+        <div>  <button type="submit">Сохранить</button> </div>
+    </form>
+</body>
+</html>

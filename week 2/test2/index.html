@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ФОРМА</title>
+</head>
+<body>
+   <h1>Регистрация</h1> 
+    <form action="script.php" method="post">
+    <fieldset>
+        <legend>Личные данные</legend>
+    <div>
+    <label for="name">Имя</label>
+    <input type="text" id="name"/></div>
+    <div>
+        <label for="Surname">Фамилия</label>
+        <input type="text" id="Surname"/></div>
+    </fieldset>
+    <div><label for="Login">Придумайте Логин</label>
+        <input type="text" id="Login"/></div>
+    <fieldset>
+        <legend>Пароли</legend>
+        <div><label for="password">Введите пароль</label>
+        <input type="password" id="password"/></div>
+    <div><label for="password2"> Повторите пароль</label>
+        <input type="password" id="password2"/></div>
+    </fieldset>
+    <div><label for="tel">Номер телефона</label>
+        <input type="tel" id="tel"/></div>
+    <div><label for="sex">Ваш пол</label>
+        <br>Женский<input type="radio" name="sex" id="sex"/> <br>Мужской<input type="radio" name="sex" id="sex"/></div>
+   <button>Зарегистрироваться</button>
+   <div>Нажимая кнопку зарегистрироваться</div>
+   <input type="checkbox">Я принимаю условия пользовательского соглашения <a href=""> Пользовательское соглашение</a>
+</form>
+<fieldset>
+    <legend accesskey="N" tabindex="0">Имя</legend>
+    <p>Имя <input type="text" name="firstName" accesskey="F" tabindex="1"/></p>
+</fieldset>
+<fieldset>
+      <legend accesskey="A" tabindex="2">Адрес</legend>
+      <p>Адрес <textarea name="address" accesskey="T" tabindex="3"></textarea></p>
+ </fieldset>
+</body>
+</html>

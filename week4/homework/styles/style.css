@@ -1,0 +1,131 @@
+*{
+    box-sizing:border-box ;
+}
+nav {
+    background-color: rgb(179, 176, 163);
+    font-family: Noto Serif, serif;
+    font-size: 19px; 
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0.36px;
+    text-align:left;
+    color: rgb(42, 24, 4);
+    margin: 0;
+    padding: 0;
+}
+#linkgroup {
+    text-decoration: none;
+    color:rgb(42, 24, 4);
+    
+}
+#recipes {
+    position: absolute;
+    width: 76px;
+    height: 60px;
+    left: 30px;
+    right: 1094px;
+    top: 192px;
+    bottom: 10910px;
+}
+#about {
+    position: absolute;
+    width: 65px;
+    height: 60px;
+    left: 117px;
+    right: 1018px;
+    top: 192px;
+    bottom: 10910px;
+}
+#cookbook {
+    position: absolute;
+    width: 104px;
+    height: 60px;
+    left: 192px;
+    right: 904px;
+    top: 192px;
+    bottom: 10910px;
+}
+#booktour {
+    position: absolute;
+    width: 107px;
+    height: 60px;
+    left: 307px;
+    right: 786px;
+    top: 192px;
+    bottom: 10910px;
+}
+#shop {
+    position: absolute;
+    width: 52px;
+    height: 60px;
+    left: 424px;
+    right: 724px;
+    top: 192px;
+    bottom: 10910px;
+}
+#search{
+    position: absolute;
+    width: 66px;
+    height: 60px;
+    left: 486px;
+    right: 648px;
+    top: 192px;
+    bottom: 10910px;
+}
+.scndmenu {
+    width: 1200px;
+    height: 809px;
+    margin-top: 252;
+    margin-bottom:10910px;
+}
+.bar :link{
+    color:rgb(42, 24, 4);
+    text-decoration: none;
+}
+.bar :hover {
+    color:blue;
+}
+a :visited {
+    color:rgb(42, 24, 4);
+}
+.scndmenu :nth-child(2){
+    position: absolute;
+    border-color: rgba(199, 110, 37, 0.863);
+    border-width: 16;
+    width: 490px;
+    height: 630px;
+    margin-left: 23px;
+    margin-right: 687px;
+    margin-top: 403px;
+    margin-bottom: 10156px;
+    z-index: -10;
+}
+.scndmenu :nth-child(3) {
+    position: absolute;
+    width: 490px;
+    height: 603px;
+    left: 358px;
+    right: 352px;
+    top: 343px;
+    bottom: 10216px;
+    z-index: 0;
+}
+.scndmenu :nth-child(4) {
+    position: absolute;
+    width: 480px;
+    height: 595px;
+    left: 698px;
+    right: 22px;
+    top: 408px;
+    bottom: 10159px;
+    z-index: 10;
+}
+.caption {
+    color: rgb(42, 24, 4);
+    font-family: Arimo, serif;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.4px;
+    text-align: left;
+}
