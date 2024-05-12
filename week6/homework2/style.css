@@ -14,7 +14,7 @@
     text-decoration: none;
     color: black;
 }
-.submenu> div {
+.submenu {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,42 +43,42 @@
     grid-area: 1/1/2/2;
     align-items: center;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #FFDBC3;
 }
 .art2 {
     grid-area: 1/2/2/3;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #FFC2CC;
 }
 .art3 {
     grid-area: 2/1/3/2;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #B4EAB3;
 }
 .art4 {
     grid-area: 2/2/3/3;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #FDD5CD;
 }
 .art5 {
     grid-area: 3/1/4/2;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #A8DCDF;
 }
 .art6 {
     grid-area: 3/2/4/3;
     width: 35vw;
-    padding: 0;
+    padding: 10px;
     margin: 20px;
     background-color: #C4C6EC;
 }
